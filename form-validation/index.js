@@ -1,5 +1,6 @@
 /** @jsx h */
 const { h, render, Component } = preact;    // normally this would be an import statement.
+import './style.scss';
 
 const inputParsers = {
   date(input) {
