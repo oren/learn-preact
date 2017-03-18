@@ -5,7 +5,7 @@ npm install
 ```
 
 
-Running `webpack` give me the following error:
+I tried copying your webpack.config.js. Running `webpack` give me the following error:
 ```
 Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema.
  - configuration has an unknown property 'postcss'. These properties are valid:
@@ -24,3 +24,5 @@ Invalid configuration object. Webpack has been initialised using a configuration
      ]
  - configuration.resolve.extensions[0] should not be empty.
 ```
+
+https://github.com/oren/learn-preact/blob/master/form-validation/webpack.config.babel.js
