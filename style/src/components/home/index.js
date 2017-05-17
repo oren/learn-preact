@@ -5,13 +5,21 @@ const classNames = require('classnames')
 export default class Profile extends Component {
 	render({user}) {
 		const tmp = classNames({
-      'home': true,
-      'baz': true,
+      'foo': true,
+      'bar': true,
     });
 
 		return (
-			<div className={tmp}>
-				test
+			<div>
+				<div className={tmp}>
+					test
+				</div>
+				<div className="foo bar">
+					test
+				</div>
+				<div class={style.foo}>
+					test
+				</div>
 			</div>
 		)
 	}
