@@ -25,4 +25,4 @@ Invalid configuration object. Webpack has been initialised using a configuration
  - configuration.resolve.extensions[0] should not be empty.
 ```
 
-https://github.com/oren/learn-preact/blob/master/form-validation/webpack.config.babel.js
+https://github.com/oren/learn-preact/blob/master/form-validation/webpack.config.js
